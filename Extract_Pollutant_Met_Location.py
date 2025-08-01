@@ -244,10 +244,7 @@ def extract_loc_all_data(
         loc_csv_path (str): Path to loc info CSV
         output_path (str): Output folder for loc_id CSV
     """
-    import pandas as pd
-    import os
 
-   
     extract_pollutants(
         nc_root_path=nc_pollutant_root,
         loc_csv_path=loc_csv_path,
